@@ -1,7 +1,4 @@
 payload:
-  # Hello 内网优先直连，避免被 ZJU-IP 中的 10.0.0.0/8 覆盖
-  - IP-CIDR,10.168.0.0/13
-
   # RVPN
   - DOMAIN-SUFFIX,rvpn.zju.edu.cn
   - DOMAIN-SUFFIX,webvpn.zju.edu.cn
