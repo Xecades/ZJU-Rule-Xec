@@ -8,7 +8,7 @@
 ## 支持功能
 
 + ZJU 内网/学术资源独立分流，支持 `ZJU Connect` 与经它反代的 `ZJU Lab SS`
-+ BBY、OKZ 和 ZJU 节点分类，保留 AI 平台、YouTube、Netflix 等详细策略组
++ YAHAGI、BBY、OKZ 和 ZJU 节点分类，保留 AI 平台、YouTube、Netflix 等详细策略组
 + ZJU 节点同时进入手动切换和各业务策略组，可直接选择 `ZJU Lab SS` 或 `ZJU Connect`
 + AI 平台可直接手动选择所有非公告节点，地区分组也采用手动选择而非强制自动测速
 + 订阅广告与公告节点独立归入 `ℹ️ 订阅信息`，不参与手动选择、自动测速、故障转移、负载均衡或地区分组
@@ -35,7 +35,7 @@
 
 ## Subconverter 模板
 
-Clash.Meta 使用 [`Clash/config/ZJU.ini`](Clash/config/ZJU.ini)。调用方需在合并订阅时为节点添加 `[BBY]`、`[OKZ]`、`[ZJU]` 来源标记，为名称中含 `ZJU` 的节点添加 `📚` 前缀，并将公告类节点额外标记为 `[INFO]`。
+Clash.Meta 使用 [`Clash/config/ZJU.ini`](Clash/config/ZJU.ini)。调用方需在合并订阅时为节点添加 `[YAHAGI]`、`[BBY]`、`[OKZ]`、`[ZJU]` 来源标记，为名称中含 `ZJU` 的节点添加 `📚` 前缀，并将公告类节点额外标记为 `[INFO]`。
 
 ## 常见问题
 
